@@ -114,6 +114,43 @@ section {
   }
 }
 /* ----------------------------------- NAVIGATION BAR END ------------------------------- */
+
+.services {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+.service-h1 {
+  font-size: 1.8em;
+  padding-bottom: 2.3em;
+}
+.praises {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.support {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 1.5em;
+  padding: 2em;
+}
+.support:hover {
+  background: #FBEEBC;
+}
+.support i {
+  font-size: 4em;
+  color: #8BC746;
+  padding-bottom: .4em;
+}
+.support h1 {
+  font-size: 2rem;
+  color: #021A08;
+  padding-bottom: .3em;
+}
+.support p {
+  /* padding-top: 3vh; */
+  font-size: 1.5rem;
+  color: #021A08;
+}
+/* ..................Section4...................... */
 /* Section1*/
 .heading {
   background: url(/image/carousel1.jpg) no-repeat;
@@ -262,42 +299,6 @@ section {
   background: #222;
 }
 /* ..................Section3...................... */
-.services {
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
-.service-h1 {
-  font-size: 1.8em;
-  padding-bottom: 2.3em;
-}
-.praises {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.support {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  margin: 1.5em;
-  padding: 2em;
-}
-.support:hover {
-  background: #FBEEBC;
-}
-.support i {
-  font-size: 4em;
-  color: #8BC746;
-  padding-bottom: .4em;
-}
-.support h1 {
-  font-size: 2rem;
-  color: #021A08;
-  padding-bottom: .3em;
-}
-.support p {
-  /* padding-top: 3vh; */
-  font-size: 1.5rem;
-  color: #021A08;
-}
-/* ..................Section4...................... */
 .team h1 {
   font-size: 4rem;
 }
